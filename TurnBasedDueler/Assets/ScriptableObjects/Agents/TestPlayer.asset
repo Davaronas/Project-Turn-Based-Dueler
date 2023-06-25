@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34cbbc12804bab4e8d01a78a7af0e37, type: 3}
+  m_Name: TestPlayer
+  m_EditorClassIdentifier: 
+  agentName: Player
+  baseStats:
+    Strength: 15
+    Endurance: 19
+    Reflex: 11
+    Speed: 12
+    Awareness: 9
+    perks:
+      unbreakable: 1
+      vitality: 1
+      fastLearner: 1
+      blockMastery: 0
+      lastingMemory: 1
+      armorMastery: 0
+      skillfulDefender: 1
+      attackMastery: 1
+      breakthrough: 0
+      lacerate: 0
+      revenge: 0
+      savage: 0
+      criticalHit: 0
+      deceptiveTechnique: 0
+      foulStance: 0
+      keenEye: 0
+      skip: 0
+      slippery: 0
+  health: 0
+  currentHealth: 0
+  armorPoints: 0
+  currentArmorPoints: 0
+  TL:
+    predictionPoints: 0
+    adaptionPoints: 0
+    adaptionDecayTurns: 0
+    isPredicted: 0
+  TR:
+    predictionPoints: 0
+    adaptionPoints: 0
+    adaptionDecayTurns: 0
+    isPredicted: 0
+  BL:
+    predictionPoints: 0
+    adaptionPoints: 0
+    adaptionDecayTurns: 0
+    isPredicted: 0
+  BR:
+    predictionPoints: 0
+    adaptionPoints: 0
+    adaptionDecayTurns: 0
+    isPredicted: 0
+  maxSideDefensePoints: 0
+  predictionSideDefensePoints: 0
+  currentPredictionSideDefensePoints: 0
+  predictionSideDefenseGain: 0
+  increasedArmorHitChance: 0
+  adaptionPointsGainedPerHit: 0
+  adaptionPointsDecayInTurns: 0
+  makeEnemySkipChance: 0
+  agentSkipsThisRound: 0
+  ignoreEnemySideDefenseChance: 0
+  critChance: 0
+  bonusBlockRoll: 0
+  bonusAttackRoll: 0
+  revengeActive: 0
+  reflectChance: 0
+  reflectFullDamagePotentialPercent: 0
+  cleanAttacksLandedThisFight: 0
+  bonusDamage:
+    cut: 0
+    pierce: 0
+    blunt: 0
+  increasedStrengthMultiplier: 0
+  attackDirection: 0
+  attackRollDoubledChance: 0
+  lacerateMultiplier: 0
+  armor: {fileID: 11400000, guid: bb9e14b7fa6ca4149b9a085367ea0df6, type: 2}
+  mainHand: {fileID: 11400000, guid: 050daf37686fed246aff6bb0009960e7, type: 2}
+  offHand: {fileID: 11400000, guid: a293bb64ccb0b2f489fc026e72b1217c, type: 2}

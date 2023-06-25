@@ -1,0 +1,11 @@
+TODO
+
+
+keep showing player health and armor*
+stop turns until player presses a button (space), optional
+agent death
+
+weapons
+robot
+player rig + animations
+robot animations
